@@ -3,9 +3,11 @@ clopen
 
 Clones and opens a git repo with your `$EDITOR`. Also, features `forpen` that forks it too. (if on Github)
 
+
 Prerequisites
 -------------
 `git` & `github` [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) plugins.
+
 
 Installation
 ------------
@@ -15,6 +17,7 @@ git clone git@github.com:kootoopas/clopen.git  ~/.oh-my-zsh/custom/plugins/clope
 ```
 
 2. Add `clopen` to `plugins` in `.zprofile`.
+
 
 Usage
 -----
