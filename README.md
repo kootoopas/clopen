@@ -11,11 +11,12 @@ Prerequisites
 
 Installation
 ------------
-1. Move the file to your custom plugins folder:
-   ```bash
-   git clone git@github.com:kootoopas/clopen.git  ~/.oh-my-zsh/custom/plugins/clopen
-   ```
-2. Add `clopen` to `plugins` in `.zprofile`.
+Move the file to your custom plugins folder:
+```bash
+git clone git@github.com:kootoopas/clopen.git  ~/.oh-my-zsh/custom/plugins/clopen
+```
+
+Add `clopen` to `plugins` in `.zprofile`.
 
 
 Usage
