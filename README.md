@@ -24,11 +24,11 @@ Usage
 Both commands' args are similar to `git clone`:
 
 ```bash
-clopen robbyrussell/oh-my-zsh
-clopen robbyrussell/oh-my-zsh clone-here
+clopen gh:robbyrussell/oh-my-zsh
+clopen gh:robbyrussell/oh-my-zsh clone-here
 clopen https://github.com/robbyrussell/oh-my-zsh
 clopen git@github.com:robbyrussell/oh-my-zsh.git
 
-forpen robbyrussell/oh-my-zsh
+forpen gh:robbyrussell/oh-my-zsh
 ...
 ```
