@@ -3,7 +3,7 @@ function _clopen_dirname() {
     local dirname="$2"
   else
     # split repo path by / and get repo name
-    local dirname=$(echo $1 | cut -d'/' -f2 | cut -d'.' -f1)
+    local dirname=$(echo ${1##*/} | cut -d'.' -f1)
   fi
 
   echo $dirname
